@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D6F611024B1175200423A3D /* FiraMono-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F610E24B1175200423A3D /* FiraMono-Regular.otf */; };
+		3D6F611124B1175200423A3D /* FiraMono-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D6F610F24B1175200423A3D /* FiraMono-Bold.otf */; };
 		408A263A236440F8008A4E81 /* iOSFS.m in Sources */ = {isa = PBXBuildFile; fileRef = 408A2639236440F8008A4E81 /* iOSFS.m */; };
 		650B337422EA235C00B4C03E /* PasteboardDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 650B337322EA235C00B4C03E /* PasteboardDevice.m */; };
 		8632A7BF219A59FB00F02325 /* UserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 8632A7BE219A59FB00F02325 /* UserPreferences.m */; };
@@ -121,6 +123,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D6F610E24B1175200423A3D /* FiraMono-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraMono-Regular.otf"; sourceTree = "<group>"; };
+		3D6F610F24B1175200423A3D /* FiraMono-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraMono-Bold.otf"; sourceTree = "<group>"; };
 		408A2639236440F8008A4E81 /* iOSFS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSFS.m; sourceTree = "<group>"; };
 		408A263B23644102008A4E81 /* iOSFS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSFS.h; sourceTree = "<group>"; };
 		650B335A22E9E46A00B4C03E /* mem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mem.c; sourceTree = "<group>"; tabWidth = 4; };
@@ -375,6 +379,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D6F610D24B1173800423A3D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3D6F610F24B1175200423A3D /* FiraMono-Bold.otf */,
+				3D6F610E24B1175200423A3D /* FiraMono-Regular.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		650B336522E9F09F00B4C03E /* proc */ = {
 			isa = PBXGroup;
 			children = (
@@ -471,6 +484,7 @@
 		BB792B451F96D8E000FFB7A4 = {
 			isa = PBXGroup;
 			children = (
+				3D6F610D24B1173800423A3D /* fonts */,
 				BB792B521F96D90D00FFB7A4 /* app */,
 				BB4A53931FAA393B00A72ACE /* most of the code */,
 				BB18B27F1F97F2590059FCD8 /* Scripts */,
@@ -973,11 +987,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB792B5D1F96D90D00FFB7A4 /* Assets.xcassets in Resources */,
+				3D6F611024B1175200423A3D /* FiraMono-Regular.otf in Resources */,
 				BB792B601F96D90D00FFB7A4 /* LaunchScreen.storyboard in Resources */,
 				BBBF7B5C2415CDBB00EC4C14 /* Settings.bundle in Resources */,
 				BBBCE7E321D2F02200CA00B3 /* About.storyboard in Resources */,
 				BB792B5B1F96D90D00FFB7A4 /* Main.storyboard in Resources */,
 				BB2B4DAF231D998300CB578B /* term.html in Resources */,
+				3D6F611124B1175200423A3D /* FiraMono-Bold.otf in Resources */,
 				BB10E5D0248DC21D009C7A74 /* Roots.storyboard in Resources */,
 				BBCE66E2249A807700F45269 /* alpine.tar.gz in Resources */,
 				BB2B4DAC231D94C300CB578B /* hterm_all.js in Resources */,
@@ -1465,6 +1481,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 73;
 				DEVELOPMENT_TEAM = MTJ3Z2D925;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1534,6 +1551,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 73;
 				DEVELOPMENT_TEAM = MTJ3Z2D925;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;

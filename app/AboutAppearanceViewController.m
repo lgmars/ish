@@ -134,7 +134,7 @@ enum {
 - (IBAction)selectFont:(id)sender {
     if (@available(iOS 13, *)) {
         UIFontPickerViewControllerConfiguration *config = [UIFontPickerViewControllerConfiguration new];
-        config.filteredTraits = UIFontDescriptorTraitMonoSpace;
+        //config.filteredTraits = UIFontDescriptorTraitMonoSpace;
         UIFontPickerViewController *fontPicker = [[UIFontPickerViewController alloc] initWithConfiguration:config];
         fontPicker.delegate = self;
         [self presentViewController:fontPicker animated:YES completion:nil];

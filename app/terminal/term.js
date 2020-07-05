@@ -28,6 +28,18 @@ x-row {
   text-rendering: optimizeLegibility;
   font-variant-ligatures: normal;
 }
+@font-face
+{
+    font-family: "Fira Mono";
+    font-weight: normal;
+    src: url(FiraMono-Regular.otf);
+}
+@font-face
+{
+    font-family: "Fira Mono";
+    font-weight: bold;
+    src: url(FiraMono-Bold.otf);
+}
 `;
 
 function onTerminalReady() {
